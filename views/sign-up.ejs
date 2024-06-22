@@ -1,0 +1,43 @@
+<%- include('layout', {body: `
+    <h1>Sign up</h1>
+    <h3>You don't have an account create an account here!</h3>
+
+    <form method="post">
+        <div>
+            
+            <label for="firstname">Firstname:</label>
+            <input type="text" name="firstname" id="firstname">
+        </div>
+
+        <div>
+            
+            <label for="lastname">Lastname:</label>
+            <input type="text" name="lastname" id="lastname">
+        </div>
+
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+
+        </div>
+
+        <div>
+
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password">
+        </div>
+
+        <div>
+
+            <label for="conf-pass">Confirm password</label>
+            <input type="text" name="fisrtname" id="conf-pass">
+        </div>
+
+
+        <div>
+
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+
+    `}) %>
